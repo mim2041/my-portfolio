@@ -1,8 +1,9 @@
+import HeroSection from "./HeroSection";
 
 const Home = () => {
     return (
         <div>
-            this is home
+            <HeroSection />
         </div>
     );
 };
