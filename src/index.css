@@ -42,7 +42,8 @@ body {
     color: var(--color-white);
     line-height: 1.7;
     background-color: #1f1f38;
-    max-width: 1200px;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 code {
