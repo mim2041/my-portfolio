@@ -29,13 +29,13 @@ const Navbar = () => {
                 >
                         <BiBook />
                 </Link>
-                <Link to="/"
+                <Link to="/skills"
                     onClick={() => setActiveItem("#skills")}
                     className={ activeItem === "#skills" ? "active" : ""}
                 >
                         <RiServiceLine />
                 </Link>
-                <Link to="/"
+                <Link to="/contact"
                     onClick={() => setActiveItem("#contact")}
                     className={ activeItem === "#contact" ? "active" : ""}
                 >
