@@ -21,7 +21,7 @@ const Contact = () => {
     }
 
     return (
-        <div>
+        <div className='my-10 '>
             <h2 className='text-3xl mb-6'>Contact Me</h2>
 
             <div className='grid grid-cols-1 md:grid-cols-[5fr,7fr] gap-6'>
