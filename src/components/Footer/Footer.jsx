@@ -24,7 +24,7 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/in/md-abdur-rouf-likhon-70a562257/"><FaLinkedin></FaLinkedin></a>
             </div>
 
-            <div className="footer_copyright">
+            <div className="footer_copyright mb-8">
                 <small>&copy; Mim Khatun. All rights reserved.</small>
             </div>
         </footer>

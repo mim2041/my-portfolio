@@ -23,9 +23,9 @@ const Navbar = () => {
                 >
                         <AiOutlineUser />
                 </Link>
-                <Link to="/"
-                    onClick={() => setActiveItem("#experience")}
-                    className={ activeItem === "#experience" ? "active" : ""}
+                <Link to="/projects"
+                    onClick={() => setActiveItem("#projects")}
+                    className={ activeItem === "#projects" ? "active" : ""}
                 >
                         <BiBook />
                 </Link>

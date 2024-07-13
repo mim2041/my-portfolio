@@ -3,7 +3,7 @@ const Skills = () => {
   return (
     <div className="container mx-auto p-4">
       {/* Skills Section */}
-      <section id="skills" className="bg-gray-800 p-6 rounded-lg mt-8 text-left">
+      <section id="skills" className="bg-gray-800 p-6 lg:px-10 rounded-lg mt-8 text-left">
         <h2 className="text-3xl font-semibold text-white mb-8">Skills</h2>
         <div className="mb-4">
           <h3 className="text-xl font-semibold text-gray-200">
