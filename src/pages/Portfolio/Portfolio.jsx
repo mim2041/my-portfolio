@@ -27,7 +27,7 @@ const Portfolio = () => {
               />
             </div>
 
-            <div className="portfolio_item-cta">
+            <div className="portfolio_item-cta mb-5">
               {project?.live && (
                 <a
                   href={project?.live}
