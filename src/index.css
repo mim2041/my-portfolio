@@ -15,7 +15,7 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
+    --color-bg: #050A44;
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-variant: # rgba(77, 181, 255, 0.4);
@@ -41,7 +41,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-color: #1f1f38;
+    background-color: #001516;
     /* max-width: 1600px; */
     margin: 0 auto;
 }

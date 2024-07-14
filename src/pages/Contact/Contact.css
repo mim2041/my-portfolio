@@ -1,0 +1,21 @@
+.inputField:hover {
+    border: 1px solid #001516;
+    border-color: var(--color-primary-variant);
+    transform:  translate 3s ease-in-out ;
+    background: #001516;
+}
+
+@media screen and (max-width: 1024px) {
+    .contact-container {
+        margin: 20px 200px;
+    }
+    
+}
+
+
+/* @media screen and (max-width: 768px) {
+    .contact-container {
+        margin: 20px 100px;
+    }
+    
+} */

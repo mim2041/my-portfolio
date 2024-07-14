@@ -11,20 +11,23 @@
 }
 
 .portfolio_item {
-    background: var(--color-bg-variant);
+    /* background: var(--color-bg-variant); */
+    background-color: #004449;
     /* padding: 1.3rem; */
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
     border: 1 px solid transparent;
     transition: var(--transition);
+    /* transition: scale 0.3s ease-in-out; */
 }
 
 .portfolio_item:hover {
     border-color: var(--color-primary-variant);
-    background: transparent;
+    /* background: transparent; */
+    transform: scale(1.05);
 }
 
 .portfolio_item-image {
-    border-radius: 1.5rem;
+    /* border-start-start-radius: 1.5rem; */
     overflow: hidden;
 }
 

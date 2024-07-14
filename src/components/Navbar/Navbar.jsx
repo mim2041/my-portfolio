@@ -14,30 +14,35 @@ const Navbar = () => {
                 <Link to="/"
                     onClick={() => setActiveItem("#home")}
                     className={ activeItem === "#home" ? "active" : ""}
+                    title='Home'
                 >
                         <AiOutlineHome />
                 </Link>
                 <Link to="/"
                     onClick={() => setActiveItem("#about")}
                     className={ activeItem === "#about" ? "active" : ""}
+                    title='About'
                 >
                         <AiOutlineUser />
                 </Link>
                 <Link to="/projects"
                     onClick={() => setActiveItem("#projects")}
                     className={ activeItem === "#projects" ? "active" : ""}
+                    title='Projects'
                 >
                         <BiBook />
                 </Link>
                 <Link to="/skills"
                     onClick={() => setActiveItem("#skills")}
                     className={ activeItem === "#skills" ? "active" : ""}
+                    title='Skills & Experience'
                 >
                         <RiServiceLine />
                 </Link>
                 <Link to="/contact"
                     onClick={() => setActiveItem("#contact")}
                     className={ activeItem === "#contact" ? "active" : ""}
+                    title='Contact'
                 >
                         <BiMessageSquareDetail />
                 </Link>

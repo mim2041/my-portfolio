@@ -2,6 +2,7 @@ import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {FaWhatsappSquare} from 'react-icons/fa'
 import { useRef } from 'react';
+import './Contact.css'
 
 
 const Contact = () => {
@@ -21,7 +22,7 @@ const Contact = () => {
     }
 
     return (
-        <div className='my-10 '>
+        <div className='my-10 mx-8 md:mx-24 contact-container'>
             <h2 className='text-3xl mb-6'>Contact Me</h2>
 
             <div className='grid grid-cols-1 md:grid-cols-[5fr,7fr] gap-6'>
@@ -47,9 +48,9 @@ const Contact = () => {
                 </div>
                 <div>
                     <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-5'>
-                    <input type="text" name="name" placeholder="Your Full Name" required className='w-full rounded-lg py-4 px-3 bg-[#2c2c6c] hover:bg-transparent'/>
-                    <input type="email" name="email" placeholder="Your Email address" required className='w-full rounded-lg py-4 px-3 bg-[#2c2c6c] hover:bg-transparent'/>
-                    <textarea name="message" rows="7" className='w-full rounded-lg py-4 px-3 bg-[#2c2c6c] hover:bg-transparent' placeholder='Message...'></textarea>
+                    <input type="text" name="name" placeholder="Your Full Name" required className='w-full rounded-lg py-4 px-3 bg-[#2c2c6c] hover:bg-transparent inputField'/>
+                    <input type="email" name="email" placeholder="Your Email address" required className='w-full rounded-lg py-4 px-3 bg-[#2c2c6c] hover:bg-transparent inputField'/>
+                    <textarea name="message" rows="7" className='w-full rounded-lg py-4 px-3 bg-[#2c2c6c]  inputField' placeholder='Message...'></textarea>
                     <button type="submit" className="btn btn-primary ">Send Message</button>
                 </form>
                 </div>

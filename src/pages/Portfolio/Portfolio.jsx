@@ -13,9 +13,9 @@ const Portfolio = () => {
       {/* <h5>My Recent Work</h5> */}
       <h2 className="text-3xl ">Projects</h2>
       <hr />
-      <div className="container portfolio_container">
+      <div className="container portfolio_container rounded-lg">
         {ProjectData?.map((project, index) => (
-          <article key={index} className="portfolio_item">
+          <article key={index} className="portfolio_item rounded-lg">
             <div className="portfolio_item-image w-100 h-44 md:h-60  w-full object-fill">
               <img
                 src={
@@ -24,10 +24,14 @@ const Portfolio = () => {
                     : "https://via.placeholder.com/150"
                 }
                 alt=""
+                className='w-full h-full rounded-t-lg'
               />
             </div>
 
-            <div className="portfolio_item-cta mb-5">
+            <div>
+              <h3 className="text-left ml-5 mt-2">{project?.title}</h3>
+              <div className="portfolio_item-cta mb-5">
+              
               {project?.live && (
                 <a
                   href={project?.live}
@@ -44,6 +48,7 @@ const Portfolio = () => {
               >
                 View Details
               </Link>
+            </div>
             </div>
           </article>
         ))}
