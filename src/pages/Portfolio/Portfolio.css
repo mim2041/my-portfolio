@@ -5,7 +5,7 @@
 
 .portfolio_container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
 
 }
@@ -16,14 +16,14 @@
     /* padding: 1.3rem; */
     /* border-radius: 2rem; */
     border: 1 px solid transparent;
-    transition: var(--transition);
+    /* transition: var(--transition); */
     /* transition: scale 0.3s ease-in-out; */
 }
 
 .portfolio_item:hover {
     border-color: var(--color-primary-variant);
     /* background: transparent; */
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
 }
 
 .portfolio_item-image {

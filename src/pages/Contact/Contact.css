@@ -3,6 +3,7 @@
     border-color: var(--color-primary-variant);
     transform:  translate 3s ease-in-out ;
     background: #001516;
+    box-shadow: rgb(0, 109, 139);
 }
 
 @media screen and (max-width: 1024px) {

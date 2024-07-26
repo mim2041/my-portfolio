@@ -16,7 +16,7 @@ const Portfolio = () => {
       <div className="container portfolio_container rounded-lg">
         {ProjectData?.map((project, index) => (
           <article key={index} className="portfolio_item rounded-lg">
-            <div className="portfolio_item-image w-100 h-44 md:h-60  w-full object-fill">
+            <div className="portfolio_item-image w-100 h-44 md:h-54  w-full object-fill">
               <img
                 src={
                   project?.image?.length
@@ -30,6 +30,7 @@ const Portfolio = () => {
 
             <div>
               <h3 className="text-left ml-5 mt-2">{project?.title}</h3>
+              <p className='text-[12px] text-gray-300 text-left mx-5'>{project?.about.slice(0,60)}...</p>
               <div className="portfolio_item-cta mb-5">
               
               {project?.live && (
@@ -44,7 +45,7 @@ const Portfolio = () => {
               )}
               <Link
                 to={`/projects/${titleConvert(project?.title)}`}
-                className="btn"
+                className="btn-primary"
               >
                 View Details
               </Link>

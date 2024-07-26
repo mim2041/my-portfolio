@@ -14,9 +14,12 @@ const HeroSection = () => {
             <a href="https://github.com/mim2041" target="_blank" rel="noreferrer"><BsGithub></BsGithub></a>
             <a href="https://www.linkedin.com/in/mim-khatun-225077278/" target="_blank" rel="noreferrer"><BsLinkedin></BsLinkedin></a>
         </div>
-        <div className="pic-con ">
+        <div className="pic-con flex flex-col gap-">
            <div className="me">
              <img src={profile} alt="" />
+           </div>
+           <div className='bg-[#4db5ff] w-full flex items-center '>
+            <marquee behavior="" direction="" className="text-black">I'm Available now. Hire me!!!</marquee>
            </div>
          </div>
 
