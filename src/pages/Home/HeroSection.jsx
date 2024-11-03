@@ -44,7 +44,8 @@ const photo = {
 
 const HeroSection = () => {
     return (
-      <header className='flex flex-col md:flex-row items-center md:justify-between gap-8 mg:gap-16 max-w-[1200px] mx-auto lg:-mt-10 mb-8 lg:h-screen my-auto'>
+      <div className='overflow-hidden'>
+        <header className='flex flex-col md:flex-row items-center md:justify-between gap-8 mg:gap-16 max-w-[1200px] mx-auto lg:-mt-10 mb-8 lg:h-screen my-auto'>
         <div className="header-social hidden lg:flex md:w-1/4">
             <a href="https://www.facebook.com/mim.suraiya/" target="_blank" rel="noreferrer" ><BsFacebook></BsFacebook></a>
             <a href="https://github.com/mim2041" target="_blank" rel="noreferrer"><BsGithub></BsGithub></a>
@@ -76,6 +77,7 @@ const HeroSection = () => {
           </a>
         </div>
       </header>
+      </div>
         
     );
 };
