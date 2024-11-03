@@ -15,7 +15,7 @@ const Portfolio = () => {
     const displayedProjects = isHomePage ? ProjectData.slice(0,6) : ProjectData;
 
     return ( 
-        <section id="projects" className='w-full  '>
+        <section id="projects" className='w-full'>
       {/* <h5>My Recent Work</h5> */}
       <h2 className="text-3xl ">Projects</h2>
       <hr />

@@ -27,19 +27,19 @@ const Contact = () => {
 
             <div className='grid grid-cols-1 md:grid-cols-[5fr,7fr] gap-6'>
                 <div className='flex flex-col gap-4'>
-                    <article className="contact_option flex flex-col items-center justify-center rounded-lg bg-[#2c2c6c] border-1 border-transparent py-6 inputField">
+                    <article className="contact_option flex flex-col items-center justify-center rounded-lg bg-gray-800 border-1 border-transparent py-6 inputField">
                         <MdOutlineEmail className="contact_option_icon"/>
                         <h4>Email</h4>
                         <h5>suraiyamim338@gmail.com</h5>
                         <a href="mailto:suraiyamim338@gmail.com" target="_blank" >Send a message</a>
                 </article>
-                    <article className="contact_option flex flex-col items-center justify-center rounded-lg bg-[#2c2c6c] border-1 border-transparent py-6 inputField">
+                    <article className="contact_option flex flex-col items-center justify-center rounded-lg bg-gray-800 border-1 border-transparent py-6 inputField">
                         <RiMessengerLine className="contact_option_icon"/>
                         <h4>Messenger</h4>
                         <h5>Mim Khatun</h5>
                         <a href="https://www.facebook.com/messages/t/2913774092050394/" target="_blank">Send a message</a>
                 </article>
-                <article className="contact_option flex flex-col items-center justify-center rounded-lg bg-[#2c2c6c] border-1 border-transparent py-6 inputField">
+                <article className="contact_option flex flex-col items-center justify-center rounded-lg bg-gray-800 border-1 border-transparent py-6 inputField">
                         <FaWhatsappSquare className="contact_option_icon"/>
                         <h4>WhatsApp</h4>
                         <h5>+8801705934910</h5>
@@ -48,9 +48,9 @@ const Contact = () => {
                 </div>
                 <div>
                     <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-5'>
-                    <input type="text" name="name" placeholder="Your Full Name" required className='w-full rounded-lg py-4 px-3 bg-[#2c2c6c]  inputField'/>
-                    <input type="email" name="email" placeholder="Your Email address" required className='w-full rounded-lg py-4 px-3 bg-[#2c2c6c]  inputField'/>
-                    <textarea name="message" rows="7" className='w-full rounded-lg py-4 px-3 bg-[#2c2c6c]  inputField' placeholder='Message...'></textarea>
+                    <input type="text" name="name" placeholder="Your Full Name" required className='w-full rounded-lg py-4 px-3 bg-gray-800  inputField'/>
+                    <input type="email" name="email" placeholder="Your Email address" required className='w-full rounded-lg py-4 px-3 bg-gray-800  inputField'/>
+                    <textarea name="message" rows="7" className='w-full rounded-lg py-4 px-3 bg-gray-800  inputField' placeholder='Message...'></textarea>
                     <button type="submit" className="btn btn-primary ">Send Message</button>
                 </form>
                 </div>
